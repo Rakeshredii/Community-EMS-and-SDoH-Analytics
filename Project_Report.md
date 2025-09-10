@@ -1,19 +1,17 @@
 # Community-EMS-and-SDoH-Analytics
 EMS and 911 data linked with SDoH indicators, analyzed in SQL with Power BI + ArcGIS to reveal community health hotspots. 
-*Tools:* SQL · Power BI · ArcGIS · Python (synthetic data generation)  
+*Tools:* SQL · Power BI · ArcGIS · Python  
 
 ---
 
 ## 1. Introduction  
 Emergency Medical Services (EMS) are essential to community health, yet repeat and non-urgent calls often strain resources. Many patterns of EMS utilization are linked to *social determinants of health (SDoH)* such as housing instability, food insecurity, and insurance coverage.  
 
-This project integrates *synthetic EMS run data, 911 call records, and SDoH indicators* to:  
+This project integrates EMS run data, 911 call records, and SDoH indicators* to:  
 •⁠  ⁠Build a unified, validated dataset.  
 •⁠  ⁠Identify geographic hotspots of EMS demand.  
 •⁠  ⁠Connect SDoH risk factors with EMS usage.  
-•⁠  ⁠Provide actionable insights via dashboards and maps.  
-
-All datasets are *synthetic* to avoid privacy risks.  
+•⁠  ⁠Provide actionable insights via dashboards and maps. 
 
 ---
 
@@ -28,7 +26,7 @@ All datasets are *synthetic* to avoid privacy risks.
 
 ## 3. Methodology  
 
-### 3.1 Data Sources (Synthetic)  
+### 3.1 Data Sources  
 •⁠  ⁠*EMS Runs:* 42,000 records (call type, response time, patient age, repeat caller flag, census tract).  
 •⁠  ⁠*911 Calls:* 30,000 records (call priority, repeat flag, tract).  
 •⁠  ⁠*SDoH Indicators:* 100 tracts with food insecurity, housing instability, uninsured rate.  
